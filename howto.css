@@ -1,0 +1,16 @@
+.hr{
+    border: 5px dashed red;
+}
+
+button{
+    border: 0;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, rgb(200, 23, 23), rgb(189, 130, 21), rgb(175, 175, 25), rgb(27, 170, 27), rgb(26, 26, 163), rgb(89, 18, 139), violet);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}

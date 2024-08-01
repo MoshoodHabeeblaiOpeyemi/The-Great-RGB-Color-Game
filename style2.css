@@ -1,0 +1,76 @@
+.content{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+p{
+    color: aquamarine;
+    font-weight: bolder;
+    position: relative;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px double red;
+    animation: play2 5s linear 1s infinite;
+    -webkit-animation: play2 5s linear 1s infinite;
+}
+.welcome{
+    animation: play 5s linear 1s infinite;
+    -webkit-animation: play 5s linear 1s infinite;
+}
+
+@keyframes play {
+    0%{color: black;}
+    10%{scale: 1.4;color: red;}
+    20%{color: orange;}
+    30%{color: yellow;}
+    40%{scale: 1;color: greenyellow;}
+    50%{color: green;}
+    60%{color: blue;}
+    70%{scale: 1.4;color: indigo;}
+    80%{color: violet;}
+    90%{color: rgba(71, 28, 71, 0.729);}
+    100%{scale: 1;color: black;}
+}
+@keyframes play2 {
+    0%{color: black;}
+    10%{color: red;}
+    20%{color: orange;}
+    30%{color: yellow;}
+    40%{color: greenyellow;}
+    50%{color: green;}
+    60%{color: blue;}
+    70%{color: indigo;}
+    80%{color: violet;}
+    90%{color: rgba(71, 28, 71, 0.729);}
+    100%{color: black;}
+
+    0%{border-color: black;}
+    10%{border-color: red;}
+    20%{border-color: orange;}
+    30%{border-color: yellow;}
+    40%{border-color: greenyellow;}
+    50%{border-color: green;}
+    60%{border-color: blue;}
+    70%{border-color: indigo;}
+    80%{border-color: violet;}
+    90%{border-color: rgba(71, 28, 71, 0.729);}
+    100%{border-color: black;}
+}
+
+.btn{
+    width: 100%;
+    margin: auto;
+}
+button{
+    border: 0;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, rgb(200, 23, 23), rgb(189, 130, 21), rgb(175, 175, 25), rgb(27, 170, 27), rgb(26, 26, 163), rgb(89, 18, 139), violet);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
